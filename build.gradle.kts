@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation("com.google.protobuf:protobuf-java:3.25.3")
+    implementation("com.google.protobuf:protobuf-kotlin:3.25.3")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
